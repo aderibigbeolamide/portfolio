@@ -11,7 +11,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#"  onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''} rel="noopener noreferrer"><AiOutlineHome/></a>
+      <a href="https://olamidemusodiqportfolio.netlify.app#"  onClick={() => setActiveNav('https://olamidemusodiqportfolio.netlify.app#')} className={activeNav === 'https://olamidemusodiqportfolio.netlify.app#' ? 'active' : ''} rel="noopener noreferrer"><AiOutlineHome/></a>
       <a href="#about" rel="noopener noreferrer" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
       <a href="#services" rel="noopener noreferrer" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>
