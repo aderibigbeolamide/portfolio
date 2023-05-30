@@ -49,7 +49,7 @@ const Contact = () => {
             <FaWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
             <h5>Aderibigbe Musodiq Olamide</h5>
-            <a href="https://api.whatsapp.com/send?phone+2348107183206" target='_blank' rel="noopener noreferrer">Send a message</a>
+            <a href="https://wa.me/2348107183206" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
